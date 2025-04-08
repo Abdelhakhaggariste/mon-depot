@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contactez-moi" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./professionnelCV.pdf")}
-                    download="professionnelCV.pdf"
+                    href={require("./CV__Abdel-hakh_Hissein.pdf")}
+                    download="CV__Abdel-hakh_Hissein.pdf"
                     className="download-link-button"
                   >
                     <Button text="Télécharger Mon CV" />
