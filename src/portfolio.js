@@ -23,7 +23,7 @@ const greeting = {
   username: "Hissein Abdel-hakh",
   title: "Hi all, I'm Hissein",
   subTitle: emoji(
-    "Un développeur de logiciels Full Stack passionné 🚀ayant une expérience de la création d'applications Web et mobiles avec JavaScript / Reactjs / Nodejs /java et d'autres bibliothèques et frameworks intéressants"
+    "Un développeur de logiciels Full Stack passionné 🚀ayant une expérience de la création d'applications Web et mobiles avec JavaScript / Reactjs / Nodejs /java /python et d'autres bibliothèques et frameworks intéressants"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -46,76 +46,89 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Ce que je fais",
-  subTitle: "DÉVELOPPEUR FULL STACK FOU QUI VEUT EXPLORER CHAQUE STACK TECH",
+  subTitle: "DÉVELOPPEUR FULL STACK FOU QUI VEUT EXPLORER CHAQUE STACK TECHNOLOGIQUE",
   skills: [
     emoji(
       "⚡ Développez des interfaces front-end/utilisateur hautement interactives pour vos applications Web et mobiles"
     ),
     emoji("⚡ Applications Web progressives (PWA) dans les piles normales et SPA"),
     emoji(
-      "⚡Intégration de services tiers tels que Firebase/ AWS / Digital Ocean"
+      "⚡Intégration de services tiers tels que Firebase/ AWS "
+    ),
+    emoji(
+      "⚡Passionné par le développement des models en  intelligence artificielle, je cherche à créer des solutions innovantes et efficaces"
+  
     )
-  ],
+    ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "php",
-      fontAwesomeClassname: "fab fa-php"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-       skillName: "vscode",
-       fontAwesomeClassname: "fas fa-code"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "eclipse",
-      fontAwesomeClassname: "fas fa-tools"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+ softwareSkills: [
+  {
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "css3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },
+  {
+    skillName: "python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "nodejs",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  {
+    skillName: "vscode",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "sql-database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },
+  {
+    skillName: "java",
+    fontAwesomeClassname: "fab fa-java"
+  },
+  {
+    skillName: "eclipse",
+    fontAwesomeClassname: "fas fa-tools"
+  },
+  {
+    skillName: "machine-learning",
+    fontAwesomeClassname: "fas fa-robot"
+  },
+  {
+    skillName: "deep-learning",
+    fontAwesomeClassname: "fas fa-brain"
+  }
+],
+display: true // Set false to hide this section, defaults to true
 };
+
 
 // Education Section
 
@@ -125,8 +138,8 @@ const educationInfo = {
     {
       schoolName: "Ecole Supperieur Polytechnique de Dakar",
       logo: require("./assets/images/ucad.png"),
-      subHeader: "Master en Genie informatique Option Génie Logiciel et Systeme d'Information",
-      duration: "Novembre 2023 - juin 2024(Master 1) et Master 2 en cours",
+      subHeader: "Master2 en Genie informatique Option Génie Logiciel et Systeme d'Information",
+      duration: "Novembre 2023 - juillet 2025",
       desc: "",
       descBullets: [
         "L'école supérieure polytechnique de Dakar, plus connue par sous l'acronyme ESP est une école de formation professionnelle placée sous la tutelle du ministère de l’enseignement supérieur du Sénégal. Elle a été fondée en mai 19641. Elle est rattachée à l’université Cheikh-Anta-Diop (UCAD) de Dakar mais est dotée de la personnalité juridique et d'une autonomie financière. L'ESP de Dakar est l’une des écoles d'ingénieurs les plus importantes du Sénégal et de l’Afrique de l'Ouest. Elle forme des techniciens supérieurs et des ingénieurs dans le domaine de la science, de la technique et de la gestion.",
@@ -155,11 +168,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "modeling",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,25 +187,25 @@ const workExperiences = {
       role: "Superviseur",
       company: "Eco-citoyen",
       companylogo: require("./assets/images/ecco.png"),
-      date: "Juillet 2023 – Decembre 2022",
+      date: "Juillet 2022 – aout 2022",
       desc: "",
       descBullets: [
-        "Gestion d’une équipe de huit(8) graphistes.",
-        "Filmage et enregistrement de toc-king pour le vulnérable"
+        "Assurer le bon déroulement des opérations de distribution conformément aux directives établies.",
+        "Veiller au respect des critères de ciblage et à la transparence dans l’assistance fournie auxbénéficiaires vulnérables"
       ]
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "Novembre 2022- Present",
-      desc: "Tout au long de ma formation en ingénierie logicielle, j'ai acquis des compétences solides dans la conception, le développement et le déploiement d'applications logicielles répondant aux besoins des utilisateurs."
+      company: "SISDAA",
+      companylogo: require("./assets/images/SISDAA.jpeg"),
+      date: "fevrier 2025- Present",
+      desc: "Conception et Réalisation d’un Système Intelligent de Surveillance et de Détection des Activités Anormales (terroristes, djihadistes, Boko Haram) basé sur l’Intelligence Artificielle et l’IoT au Tchad : Cas du Lac Tchad\n Mise en place d’un système combinant IA (Deep Learning, Computer Vision) et IoT (capteurs, caméras, drones) pour la détection de comportements suspects.\n Conception d’un tableau de bord de surveillance en temps réel permettant aux forces de sécurité de recevoir des alertes automatiques.\n Développement et entraînement d’un modèle de classification IA à partir d’un dataset personnalisé (fusion de vidéos réelles).\n Simulation et intégration des données capteurs via MQTT / WebSocket pour l’acquisition et l’analyse en temps réel."
     },
     {
       role: "Stagiaire ingénieur logiciel",
       company: "ADETIC",
       companylogo: require("./assets/images/Adetic.png"),
-      date: "Mai 2022 – Sep 2021",
+      date: "juin 2023 – Septembre 2023",
       desc: "Durant mon stage, j'ai participé au développement d'un site web de gestion immobilière en utilisant PHP, ce qui m'a permis de renforcer mes compétences en programmation et en gestion de bases de données MySQL."
     }
   ]
@@ -215,46 +228,9 @@ const openSource = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "AvecAmour pour développer des trucs sympas, j'aime écrire et enseigner aux autres ce que j'ai appris.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "",
-      title: "Gagnez un t-shirt Google Assistant et 200 $ en crédits Google Cloud",
-      description:
-        "Voulez-vous gagner 200 $ et un t-shirt Google Assistant en créant une action Google Assistant en moins de 30 minutes ?"
-    },
-    {
-      url: "https://react.dev/",
-      title: "Pourquoi REACT est le meilleur ?",
-      description:
-        "React est une bibliothèque JavaScript permettant de créer une interface utilisateur. Il est maintenu par Facebook et une communauté de développeurs individuels et d'entreprises."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
-// Talks Sections
 
-const talkSection = {
-  title: "POURPARLERS",
-  subtitle: emoji(
-    "J'ADORE PARTAGER MES CONNAISSANCES LIMITÉES ET OBTENIR UN BADGE DE CONFÉRENCIER 😅"
-  ),
 
-  talks: [
-    {
-      title: "Créer des actions pour l'Assistant Google",
-      subtitle: "",
-      slides_url: "",
-      event_url: "https://www.facebook.com/events?source=46&action_history=null&locale=fr_FR"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Podcast Section
 
@@ -302,8 +278,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  blogSection,
-  talkSection,
+
   podcastSection,
   contactInfo,
   twitterDetails,

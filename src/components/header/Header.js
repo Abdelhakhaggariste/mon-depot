@@ -8,8 +8,7 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
-  talkSection,
+  
   resumeSection
 } from "../../portfolio";
 
@@ -18,8 +17,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  
   const viewResume = resumeSection.display;
 
   return (
@@ -55,16 +53,7 @@ function Header() {
             </li>
           )}
          
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Pourparlers</a>
-            </li>
-          )}
+          
           {viewResume && (
             <li>
               <a href="#resume">CV</a>
